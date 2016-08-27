@@ -1,0 +1,1053 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node',
+1 verbose cli   '/Users/Leopold_Dls/.meteor/packages/meteor-tool/1.4.1_1/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'bcrypt' ]
+2 info using npm@3.10.6
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bcrypt
+8 silly fetchNamedPackageData bcrypt
+9 silly mapToRegistry name bcrypt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bcrypt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bcrypt',
+12 silly mapToRegistry   name: 'bcrypt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+14 verbose request uri https://registry.npmjs.org/bcrypt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:15:45 PM
+17 verbose request id 683f04dadcc51209
+18 http request GET https://registry.npmjs.org/bcrypt
+19 http 200 https://registry.npmjs.org/bcrypt
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"CR0LH900QPH9SNVEBDQ6WA8Z1"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '11846',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sat, 27 Aug 2016 11:15:45 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '148',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1472296545.736456,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"CR0LH900QPH9SNVEBDQ6WA8Z1"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '11846',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sat, 27 Aug 2016 11:15:45 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '148',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-fra1226-FRA',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1472296545.736456,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving bcrypt to /Users/Leopold_Dls/.npm/registry.npmjs.org/bcrypt/.cache.json
+23 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule bcrypt@0.8.7 checking installable status
+37 silly cache add args [ 'bcrypt', null ]
+38 verbose cache add spec bcrypt
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'bcrypt',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'bcrypt',
+39 silly cache add   name: 'bcrypt',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed bcrypt@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for bcrypt
+42 info addNameTag [ 'bcrypt', 'latest' ]
+43 silly mapToRegistry name bcrypt
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'bcrypt',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'bcrypt',
+46 silly mapToRegistry   name: 'bcrypt',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+48 verbose addNameTag registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+49 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+50 silly addNameTag next cb for bcrypt with tag latest
+51 silly addNamed bcrypt@0.8.7
+52 verbose addNamed "0.8.7" is a plain semver version for bcrypt
+53 silly mapToRegistry name bcrypt
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'bcrypt',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'bcrypt',
+56 silly mapToRegistry   name: 'bcrypt',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+58 verbose addRemoteTarball https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz',
+59 verbose addRemoteTarball   'bc3875a9afd0a7b2cd231a6a7f218a5ce156b093' ]
+60 info retry fetch attempt 1 at 1:15:45 PM
+61 info attempt registry request try #1 at 1:15:45 PM
+62 http fetch GET https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz
+63 http fetch 200 https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz
+64 silly fetchAndShaCheck shasum bc3875a9afd0a7b2cd231a6a7f218a5ce156b093
+65 verbose addTmpTarball /var/folders/r4/vnb1ptm53jb21kzgwcn53q040000gn/T/npm-26100-73b84303/registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for bcrypt@0.8.7
+67 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd bcrypt@0.8.7
+69 verbose afterAdd /Users/Leopold_Dls/.npm/bcrypt/0.8.7/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/Leopold_Dls/.npm/bcrypt/0.8.7/package/package.json written
+72 silly fetchNamedPackageData bindings
+73 silly mapToRegistry name bindings
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bindings',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bindings',
+76 silly mapToRegistry   name: 'bindings',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bindings
+78 silly fetchNamedPackageData nan
+79 silly mapToRegistry name nan
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'nan',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'nan',
+82 silly mapToRegistry   name: 'nan',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/nan
+84 verbose request uri https://registry.npmjs.org/bindings
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 1:15:46 PM
+87 http request GET https://registry.npmjs.org/bindings
+88 verbose request uri https://registry.npmjs.org/nan
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 1:15:46 PM
+91 verbose etag "EGTR1APXEV7TH8V3QYT0WN357"
+92 http request GET https://registry.npmjs.org/nan
+93 http 200 https://registry.npmjs.org/bindings
+94 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+94 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+94 verbose headers   'content-type': 'application/json',
+94 verbose headers   'content-encoding': 'gzip',
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   'content-length': '3804',
+94 verbose headers   'accept-ranges': 'bytes',
+94 verbose headers   date: 'Sat, 27 Aug 2016 11:15:46 GMT',
+94 verbose headers   via: '1.1 varnish',
+94 verbose headers   age: '17',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+94 verbose headers   'x-cache': 'HIT',
+94 verbose headers   'x-cache-hits': '1',
+94 verbose headers   'x-timer': 'S1472296546.043856,VS0,VE0',
+94 verbose headers   vary: 'Accept-Encoding' }
+95 silly get cb [ 200,
+95 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+95 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+95 silly get     'content-type': 'application/json',
+95 silly get     'content-encoding': 'gzip',
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     'content-length': '3804',
+95 silly get     'accept-ranges': 'bytes',
+95 silly get     date: 'Sat, 27 Aug 2016 11:15:46 GMT',
+95 silly get     via: '1.1 varnish',
+95 silly get     age: '17',
+95 silly get     connection: 'keep-alive',
+95 silly get     'x-served-by': 'cache-fra1226-FRA',
+95 silly get     'x-cache': 'HIT',
+95 silly get     'x-cache-hits': '1',
+95 silly get     'x-timer': 'S1472296546.043856,VS0,VE0',
+95 silly get     vary: 'Accept-Encoding' } ]
+96 verbose get saving bindings to /Users/Leopold_Dls/.npm/registry.npmjs.org/bindings/.cache.json
+97 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+98 silly resolveWithNewModule bindings@1.2.1 checking installable status
+99 silly cache add args [ 'bindings@1.2.1', null ]
+100 verbose cache add spec bindings@1.2.1
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'bindings@1.2.1',
+101 silly cache add   scope: null,
+101 silly cache add   escapedName: 'bindings',
+101 silly cache add   name: 'bindings',
+101 silly cache add   rawSpec: '1.2.1',
+101 silly cache add   spec: '1.2.1',
+101 silly cache add   type: 'version' }
+102 silly addNamed bindings@1.2.1
+103 verbose addNamed "1.2.1" is a plain semver version for bindings
+104 silly mapToRegistry name bindings
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'bindings',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'bindings',
+107 silly mapToRegistry   name: 'bindings',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/bindings
+109 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+110 verbose get https://registry.npmjs.org/bindings not expired, no request
+111 silly mapToRegistry name bindings
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: 'bindings',
+114 silly mapToRegistry   scope: null,
+114 silly mapToRegistry   escapedName: 'bindings',
+114 silly mapToRegistry   name: 'bindings',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri https://registry.npmjs.org/bindings
+116 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+117 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+117 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+118 info retry fetch attempt 1 at 1:15:46 PM
+119 info attempt registry request try #1 at 1:15:46 PM
+120 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+121 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+122 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+123 verbose addTmpTarball /var/folders/r4/vnb1ptm53jb21kzgwcn53q040000gn/T/npm-26100-73b84303/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+124 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+125 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+126 silly cache afterAdd bindings@1.2.1
+127 verbose afterAdd /Users/Leopold_Dls/.npm/bindings/1.2.1/package/package.json not in flight; writing
+128 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+129 verbose afterAdd /Users/Leopold_Dls/.npm/bindings/1.2.1/package/package.json written
+130 http 200 https://registry.npmjs.org/nan
+131 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+131 verbose headers   etag: '"NAY6YRKIZAXUCU18M1YHIEA2"',
+131 verbose headers   'content-type': 'application/json',
+131 verbose headers   'content-encoding': 'gzip',
+131 verbose headers   'cache-control': 'max-age=300',
+131 verbose headers   'content-length': '17135',
+131 verbose headers   'accept-ranges': 'bytes',
+131 verbose headers   date: 'Sat, 27 Aug 2016 11:15:46 GMT',
+131 verbose headers   via: '1.1 varnish',
+131 verbose headers   age: '129',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+131 verbose headers   'x-cache': 'HIT',
+131 verbose headers   'x-cache-hits': '1',
+131 verbose headers   'x-timer': 'S1472296546.113359,VS0,VE0',
+131 verbose headers   vary: 'Accept-Encoding' }
+132 silly get cb [ 200,
+132 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+132 silly get     etag: '"NAY6YRKIZAXUCU18M1YHIEA2"',
+132 silly get     'content-type': 'application/json',
+132 silly get     'content-encoding': 'gzip',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     'content-length': '17135',
+132 silly get     'accept-ranges': 'bytes',
+132 silly get     date: 'Sat, 27 Aug 2016 11:15:46 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     age: '129',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-fra1240-FRA',
+132 silly get     'x-cache': 'HIT',
+132 silly get     'x-cache-hits': '1',
+132 silly get     'x-timer': 'S1472296546.113359,VS0,VE0',
+132 silly get     vary: 'Accept-Encoding' } ]
+133 verbose get saving nan to /Users/Leopold_Dls/.npm/registry.npmjs.org/nan/.cache.json
+134 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+135 silly resolveWithNewModule nan@2.3.5 checking installable status
+136 silly cache add args [ 'nan@2.3.5', null ]
+137 verbose cache add spec nan@2.3.5
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'nan@2.3.5',
+138 silly cache add   scope: null,
+138 silly cache add   escapedName: 'nan',
+138 silly cache add   name: 'nan',
+138 silly cache add   rawSpec: '2.3.5',
+138 silly cache add   spec: '2.3.5',
+138 silly cache add   type: 'version' }
+139 silly addNamed nan@2.3.5
+140 verbose addNamed "2.3.5" is a plain semver version for nan
+141 silly mapToRegistry name nan
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry data Result {
+144 silly mapToRegistry   raw: 'nan',
+144 silly mapToRegistry   scope: null,
+144 silly mapToRegistry   escapedName: 'nan',
+144 silly mapToRegistry   name: 'nan',
+144 silly mapToRegistry   rawSpec: '',
+144 silly mapToRegistry   spec: 'latest',
+144 silly mapToRegistry   type: 'tag' }
+145 silly mapToRegistry uri https://registry.npmjs.org/nan
+146 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+147 verbose get https://registry.npmjs.org/nan not expired, no request
+148 silly cache afterAdd nan@2.3.5
+149 verbose afterAdd /Users/Leopold_Dls/.npm/nan/2.3.5/package/package.json not in flight; writing
+150 verbose correctMkdir /Users/Leopold_Dls/.npm correctMkdir not in flight; initializing
+151 verbose afterAdd /Users/Leopold_Dls/.npm/nan/2.3.5/package/package.json written
+152 silly loadAllDepsIntoIdealTree Finishing
+153 silly loadIdealTree Finishing
+154 silly currentTree app
+154 silly currentTree ├─┬ acorn-jsx@2.0.1
+154 silly currentTree │ └── acorn@2.7.0
+154 silly currentTree ├── acorn@3.0.4
+154 silly currentTree ├── amdefine@1.0.0
+154 silly currentTree ├── ansi-escapes@1.3.0
+154 silly currentTree ├── ansi-regex@2.0.0
+154 silly currentTree ├── ansi-styles@2.2.1
+154 silly currentTree ├── argparse@1.0.7
+154 silly currentTree ├── array-union@1.0.1
+154 silly currentTree ├── array-uniq@1.0.2
+154 silly currentTree ├── arrify@1.0.1
+154 silly currentTree ├─┬ autoprefixer@6.3.4
+154 silly currentTree │ ├── browserslist@1.3.0
+154 silly currentTree │ ├── caniuse-db@1.0.30000436
+154 silly currentTree │ ├── normalize-range@0.1.2
+154 silly currentTree │ ├── num2fraction@1.2.2
+154 silly currentTree │ ├── postcss-value-parser@3.3.0
+154 silly currentTree │ └─┬ postcss@5.0.19
+154 silly currentTree │   ├── js-base64@2.1.9
+154 silly currentTree │   ├── source-map@0.5.3
+154 silly currentTree │   └─┬ supports-color@3.1.2
+154 silly currentTree │     └── has-flag@1.0.0
+154 silly currentTree ├─┬ babel-code-frame@6.7.4
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ └── core-js@1.2.6
+154 silly currentTree ├─┬ babel-core@6.7.4
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ ├── core-js@1.2.6
+154 silly currentTree │ ├── lodash@3.10.1
+154 silly currentTree │ ├── minimatch@2.0.10
+154 silly currentTree │ └── path-exists@1.0.0
+154 silly currentTree ├─┬ babel-generator@6.7.2
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ ├── core-js@1.2.6
+154 silly currentTree │ └── lodash@3.10.1
+154 silly currentTree ├─┬ babel-helpers@6.6.0
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ └── core-js@1.2.6
+154 silly currentTree ├─┬ babel-messages@6.7.2
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ └── core-js@1.2.6
+154 silly currentTree ├─┬ babel-polyfill@6.7.2
+154 silly currentTree │ └─┬ babel-runtime@5.8.38
+154 silly currentTree │   └── core-js@1.2.6
+154 silly currentTree ├── babel-regenerator-runtime@6.5.0
+154 silly currentTree ├─┬ babel-register@6.7.2
+154 silly currentTree │ ├─┬ babel-runtime@5.8.38
+154 silly currentTree │ │ └── core-js@1.2.6
+154 silly currentTree │ ├── lodash@3.10.1
+154 silly currentTree │ └── path-exists@1.0.0
+154 silly currentTree ├── babel-runtime@6.6.1
+154 silly currentTree ├─┬ babel-template@6.7.0
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ ├── core-js@1.2.6
+154 silly currentTree │ └── lodash@3.10.1
+154 silly currentTree ├─┬ babel-traverse@6.7.4
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ ├── core-js@1.2.6
+154 silly currentTree │ ├── globals@8.18.0
+154 silly currentTree │ └── lodash@3.10.1
+154 silly currentTree ├─┬ babel-types@6.7.2
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ ├── core-js@1.2.6
+154 silly currentTree │ └── lodash@3.10.1
+154 silly currentTree ├─┬ babylon@6.7.0
+154 silly currentTree │ ├── babel-runtime@5.8.38
+154 silly currentTree │ └── core-js@1.2.6
+154 silly currentTree ├── balanced-match@0.3.0
+154 silly currentTree ├── bluebird@3.3.4
+154 silly currentTree ├── brace-expansion@1.1.3
+154 silly currentTree ├── caller-path@0.1.0
+154 silly currentTree ├── callsites@0.2.0
+154 silly currentTree ├── chalk@1.1.3
+154 silly currentTree ├── cli-cursor@1.0.2
+154 silly currentTree ├── cli-width@2.1.0
+154 silly currentTree ├── code-point-at@1.0.0
+154 silly currentTree ├── concat-map@0.0.1
+154 silly currentTree ├── concat-stream@1.5.1
+154 silly currentTree ├── convert-source-map@1.2.0
+154 silly currentTree ├── core-js@2.2.2
+154 silly currentTree ├── core-util-is@1.0.2
+154 silly currentTree ├── d@0.1.1
+154 silly currentTree ├── debug@2.2.0
+154 silly currentTree ├── deep-is@0.1.3
+154 silly currentTree ├── del@2.2.0
+154 silly currentTree ├─┬ detect-indent@3.0.1
+154 silly currentTree │ └── minimist@1.2.0
+154 silly currentTree ├─┬ doctrine@1.2.1
+154 silly currentTree │ └── esutils@1.1.6
+154 silly currentTree ├── es5-ext@0.10.11
+154 silly currentTree ├── es6-iterator@2.0.0
+154 silly currentTree ├── es6-map@0.1.3
+154 silly currentTree ├── es6-set@0.1.4
+154 silly currentTree ├── es6-symbol@3.0.2
+154 silly currentTree ├── es6-weak-map@2.0.1
+154 silly currentTree ├── escape-string-regexp@1.0.5
+154 silly currentTree ├── escope@3.6.0
+154 silly currentTree ├── eslint-config-airbnb@6.2.0
+154 silly currentTree ├── eslint-plugin-meteor@3.4.0
+154 silly currentTree ├── eslint-plugin-react@4.3.0
+154 silly currentTree ├── eslint@2.7.0
+154 silly currentTree ├── espree@3.1.3
+154 silly currentTree ├── esprima@2.7.2
+154 silly currentTree ├─┬ esrecurse@4.1.0
+154 silly currentTree │ └── estraverse@4.1.1
+154 silly currentTree ├── estraverse@4.2.0
+154 silly currentTree ├── esutils@2.0.2
+154 silly currentTree ├── event-emitter@0.3.4
+154 silly currentTree ├── exit-hook@1.1.1
+154 silly currentTree ├── faker@3.1.0
+154 silly currentTree ├── fast-levenshtein@1.1.3
+154 silly currentTree ├── figures@1.5.0
+154 silly currentTree ├── file-entry-cache@1.2.4
+154 silly currentTree ├── flat-cache@1.0.10
+154 silly currentTree ├── generate-function@2.0.0
+154 silly currentTree ├── generate-object-property@1.2.0
+154 silly currentTree ├── get-stdin@4.0.1
+154 silly currentTree ├── glob@7.0.3
+154 silly currentTree ├── globals@9.4.0
+154 silly currentTree ├─┬ globby@4.0.0
+154 silly currentTree │ └── glob@6.0.4
+154 silly currentTree ├── graceful-fs@4.1.3
+154 silly currentTree ├── has-ansi@2.0.0
+154 silly currentTree ├─┬ home-or-tmp@1.0.0
+154 silly currentTree │ └── user-home@1.1.1
+154 silly currentTree ├── ignore@3.0.14
+154 silly currentTree ├── imurmurhash@0.1.4
+154 silly currentTree ├── inflight@1.0.4
+154 silly currentTree ├── inherits@2.0.1
+154 silly currentTree ├── inquirer@0.12.0
+154 silly currentTree ├── invariant@2.2.1
+154 silly currentTree ├── is-finite@1.0.1
+154 silly currentTree ├── is-fullwidth-code-point@1.0.0
+154 silly currentTree ├── is-integer@1.0.6
+154 silly currentTree ├── is-my-json-valid@2.13.1
+154 silly currentTree ├── is-path-cwd@1.0.0
+154 silly currentTree ├── is-path-in-cwd@1.0.0
+154 silly currentTree ├── is-path-inside@1.0.0
+154 silly currentTree ├── is-property@1.0.2
+154 silly currentTree ├── is-resolvable@1.0.0
+154 silly currentTree ├── isarray@1.0.0
+154 silly currentTree ├── js-tokens@1.0.3
+154 silly currentTree ├── js-yaml@3.5.5
+154 silly currentTree ├── json-stable-stringify@1.0.1
+154 silly currentTree ├── json5@0.4.0
+154 silly currentTree ├── jsonify@0.0.0
+154 silly currentTree ├── jsonpointer@2.0.0
+154 silly currentTree ├── levn@0.3.0
+154 silly currentTree ├── lodash._baseeach@4.1.2
+154 silly currentTree ├── lodash._basefind@3.0.0
+154 silly currentTree ├── lodash._basefindindex@3.6.0
+154 silly currentTree ├── lodash._baseiteratee@4.6.0
+154 silly currentTree ├── lodash._mapcache@4.1.4
+154 silly currentTree ├── lodash._stringtopath@4.7.0
+154 silly currentTree ├── lodash.find@4.2.0
+154 silly currentTree ├── lodash.memoize@4.0.1
+154 silly currentTree ├── lodash@4.8.2
+154 silly currentTree ├── loose-envify@1.1.0
+154 silly currentTree ├── minimatch@3.0.0
+154 silly currentTree ├── minimist@0.0.8
+154 silly currentTree ├── mkdirp@0.5.1
+154 silly currentTree ├── ms@0.7.1
+154 silly currentTree ├── mute-stream@0.0.5
+154 silly currentTree ├── number-is-nan@1.0.0
+154 silly currentTree ├── object-assign@4.0.1
+154 silly currentTree ├── once@1.3.3
+154 silly currentTree ├── onetime@1.1.0
+154 silly currentTree ├── optionator@0.8.1
+154 silly currentTree ├── os-homedir@1.0.1
+154 silly currentTree ├── os-tmpdir@1.0.1
+154 silly currentTree ├── path-exists@2.1.0
+154 silly currentTree ├── path-is-absolute@1.0.0
+154 silly currentTree ├── path-is-inside@1.0.1
+154 silly currentTree ├── pify@2.3.0
+154 silly currentTree ├── pinkie-promise@2.0.0
+154 silly currentTree ├── pinkie@2.0.4
+154 silly currentTree ├── pluralize@1.2.1
+154 silly currentTree ├── prelude-ls@1.1.2
+154 silly currentTree ├── private@0.1.6
+154 silly currentTree ├── process-nextick-args@1.0.6
+154 silly currentTree ├── progress@1.1.8
+154 silly currentTree ├── read-json-sync@1.1.1
+154 silly currentTree ├── readable-stream@2.0.6
+154 silly currentTree ├── readline2@1.0.1
+154 silly currentTree ├── repeating@1.1.3
+154 silly currentTree ├── require-uncached@1.0.2
+154 silly currentTree ├── resolve-from@1.0.1
+154 silly currentTree ├── restore-cursor@1.0.1
+154 silly currentTree ├── rimraf@2.5.2
+154 silly currentTree ├── run-async@0.1.0
+154 silly currentTree ├── rx-lite@3.1.2
+154 silly currentTree ├── shebang-regex@1.0.0
+154 silly currentTree ├── shelljs@0.6.0
+154 silly currentTree ├── slash@1.0.0
+154 silly currentTree ├── slice-ansi@0.0.4
+154 silly currentTree ├─┬ source-map-support@0.2.10
+154 silly currentTree │ └── source-map@0.1.32
+154 silly currentTree ├── source-map@0.5.3
+154 silly currentTree ├── sprintf-js@1.0.3
+154 silly currentTree ├── string_decoder@0.10.31
+154 silly currentTree ├── string-width@1.0.1
+154 silly currentTree ├── strip-ansi@3.0.1
+154 silly currentTree ├── strip-json-comments@1.0.4
+154 silly currentTree ├── supports-color@2.0.0
+154 silly currentTree ├── table@3.7.8
+154 silly currentTree ├── text-table@0.2.0
+154 silly currentTree ├── through@2.3.8
+154 silly currentTree ├── to-fast-properties@1.0.2
+154 silly currentTree ├── trim-right@1.0.1
+154 silly currentTree ├── tryit@1.0.2
+154 silly currentTree ├── tv4@1.2.7
+154 silly currentTree ├── type-check@0.3.2
+154 silly currentTree ├── typedarray@0.0.6
+154 silly currentTree ├── user-home@2.0.0
+154 silly currentTree ├── util-deprecate@1.0.2
+154 silly currentTree ├── wordwrap@1.0.0
+154 silly currentTree ├── wrappy@1.0.1
+154 silly currentTree ├── write@0.2.1
+154 silly currentTree ├── xregexp@3.1.0
+154 silly currentTree └── xtend@4.0.1
+155 silly idealTree app
+155 silly idealTree ├─┬ acorn-jsx@2.0.1
+155 silly idealTree │ └── acorn@2.7.0
+155 silly idealTree ├── acorn@3.0.4
+155 silly idealTree ├── amdefine@1.0.0
+155 silly idealTree ├── ansi-escapes@1.3.0
+155 silly idealTree ├── ansi-regex@2.0.0
+155 silly idealTree ├── ansi-styles@2.2.1
+155 silly idealTree ├── argparse@1.0.7
+155 silly idealTree ├── array-union@1.0.1
+155 silly idealTree ├── array-uniq@1.0.2
+155 silly idealTree ├── arrify@1.0.1
+155 silly idealTree ├─┬ autoprefixer@6.3.4
+155 silly idealTree │ ├── browserslist@1.3.0
+155 silly idealTree │ ├── caniuse-db@1.0.30000436
+155 silly idealTree │ ├── normalize-range@0.1.2
+155 silly idealTree │ ├── num2fraction@1.2.2
+155 silly idealTree │ ├── postcss-value-parser@3.3.0
+155 silly idealTree │ └─┬ postcss@5.0.19
+155 silly idealTree │   ├── js-base64@2.1.9
+155 silly idealTree │   ├── source-map@0.5.3
+155 silly idealTree │   └─┬ supports-color@3.1.2
+155 silly idealTree │     └── has-flag@1.0.0
+155 silly idealTree ├─┬ babel-code-frame@6.7.4
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ └── core-js@1.2.6
+155 silly idealTree ├─┬ babel-core@6.7.4
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ ├── core-js@1.2.6
+155 silly idealTree │ ├── lodash@3.10.1
+155 silly idealTree │ ├── minimatch@2.0.10
+155 silly idealTree │ └── path-exists@1.0.0
+155 silly idealTree ├─┬ babel-generator@6.7.2
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ ├── core-js@1.2.6
+155 silly idealTree │ └── lodash@3.10.1
+155 silly idealTree ├─┬ babel-helpers@6.6.0
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ └── core-js@1.2.6
+155 silly idealTree ├─┬ babel-messages@6.7.2
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ └── core-js@1.2.6
+155 silly idealTree ├─┬ babel-polyfill@6.7.2
+155 silly idealTree │ └─┬ babel-runtime@5.8.38
+155 silly idealTree │   └── core-js@1.2.6
+155 silly idealTree ├── babel-regenerator-runtime@6.5.0
+155 silly idealTree ├─┬ babel-register@6.7.2
+155 silly idealTree │ ├─┬ babel-runtime@5.8.38
+155 silly idealTree │ │ └── core-js@1.2.6
+155 silly idealTree │ ├── lodash@3.10.1
+155 silly idealTree │ └── path-exists@1.0.0
+155 silly idealTree ├── babel-runtime@6.6.1
+155 silly idealTree ├─┬ babel-template@6.7.0
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ ├── core-js@1.2.6
+155 silly idealTree │ └── lodash@3.10.1
+155 silly idealTree ├─┬ babel-traverse@6.7.4
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ ├── core-js@1.2.6
+155 silly idealTree │ ├── globals@8.18.0
+155 silly idealTree │ └── lodash@3.10.1
+155 silly idealTree ├─┬ babel-types@6.7.2
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ ├── core-js@1.2.6
+155 silly idealTree │ └── lodash@3.10.1
+155 silly idealTree ├─┬ babylon@6.7.0
+155 silly idealTree │ ├── babel-runtime@5.8.38
+155 silly idealTree │ └── core-js@1.2.6
+155 silly idealTree ├── balanced-match@0.3.0
+155 silly idealTree ├── bcrypt@0.8.7
+155 silly idealTree ├── bindings@1.2.1
+155 silly idealTree ├── bluebird@3.3.4
+155 silly idealTree ├── brace-expansion@1.1.3
+155 silly idealTree ├── caller-path@0.1.0
+155 silly idealTree ├── callsites@0.2.0
+155 silly idealTree ├── chalk@1.1.3
+155 silly idealTree ├── cli-cursor@1.0.2
+155 silly idealTree ├── cli-width@2.1.0
+155 silly idealTree ├── code-point-at@1.0.0
+155 silly idealTree ├── concat-map@0.0.1
+155 silly idealTree ├── concat-stream@1.5.1
+155 silly idealTree ├── convert-source-map@1.2.0
+155 silly idealTree ├── core-js@2.2.2
+155 silly idealTree ├── core-util-is@1.0.2
+155 silly idealTree ├── d@0.1.1
+155 silly idealTree ├── debug@2.2.0
+155 silly idealTree ├── deep-is@0.1.3
+155 silly idealTree ├── del@2.2.0
+155 silly idealTree ├─┬ detect-indent@3.0.1
+155 silly idealTree │ └── minimist@1.2.0
+155 silly idealTree ├─┬ doctrine@1.2.1
+155 silly idealTree │ └── esutils@1.1.6
+155 silly idealTree ├── es5-ext@0.10.11
+155 silly idealTree ├── es6-iterator@2.0.0
+155 silly idealTree ├── es6-map@0.1.3
+155 silly idealTree ├── es6-set@0.1.4
+155 silly idealTree ├── es6-symbol@3.0.2
+155 silly idealTree ├── es6-weak-map@2.0.1
+155 silly idealTree ├── escape-string-regexp@1.0.5
+155 silly idealTree ├── escope@3.6.0
+155 silly idealTree ├── eslint-config-airbnb@6.2.0
+155 silly idealTree ├── eslint-plugin-meteor@3.4.0
+155 silly idealTree ├── eslint-plugin-react@4.3.0
+155 silly idealTree ├── eslint@2.7.0
+155 silly idealTree ├── espree@3.1.3
+155 silly idealTree ├── esprima@2.7.2
+155 silly idealTree ├─┬ esrecurse@4.1.0
+155 silly idealTree │ └── estraverse@4.1.1
+155 silly idealTree ├── estraverse@4.2.0
+155 silly idealTree ├── esutils@2.0.2
+155 silly idealTree ├── event-emitter@0.3.4
+155 silly idealTree ├── exit-hook@1.1.1
+155 silly idealTree ├── faker@3.1.0
+155 silly idealTree ├── fast-levenshtein@1.1.3
+155 silly idealTree ├── figures@1.5.0
+155 silly idealTree ├── file-entry-cache@1.2.4
+155 silly idealTree ├── flat-cache@1.0.10
+155 silly idealTree ├── generate-function@2.0.0
+155 silly idealTree ├── generate-object-property@1.2.0
+155 silly idealTree ├── get-stdin@4.0.1
+155 silly idealTree ├── glob@7.0.3
+155 silly idealTree ├── globals@9.4.0
+155 silly idealTree ├─┬ globby@4.0.0
+155 silly idealTree │ └── glob@6.0.4
+155 silly idealTree ├── graceful-fs@4.1.3
+155 silly idealTree ├── has-ansi@2.0.0
+155 silly idealTree ├─┬ home-or-tmp@1.0.0
+155 silly idealTree │ └── user-home@1.1.1
+155 silly idealTree ├── ignore@3.0.14
+155 silly idealTree ├── imurmurhash@0.1.4
+155 silly idealTree ├── inflight@1.0.4
+155 silly idealTree ├── inherits@2.0.1
+155 silly idealTree ├── inquirer@0.12.0
+155 silly idealTree ├── invariant@2.2.1
+155 silly idealTree ├── is-finite@1.0.1
+155 silly idealTree ├── is-fullwidth-code-point@1.0.0
+155 silly idealTree ├── is-integer@1.0.6
+155 silly idealTree ├── is-my-json-valid@2.13.1
+155 silly idealTree ├── is-path-cwd@1.0.0
+155 silly idealTree ├── is-path-in-cwd@1.0.0
+155 silly idealTree ├── is-path-inside@1.0.0
+155 silly idealTree ├── is-property@1.0.2
+155 silly idealTree ├── is-resolvable@1.0.0
+155 silly idealTree ├── isarray@1.0.0
+155 silly idealTree ├── js-tokens@1.0.3
+155 silly idealTree ├── js-yaml@3.5.5
+155 silly idealTree ├── json-stable-stringify@1.0.1
+155 silly idealTree ├── json5@0.4.0
+155 silly idealTree ├── jsonify@0.0.0
+155 silly idealTree ├── jsonpointer@2.0.0
+155 silly idealTree ├── levn@0.3.0
+155 silly idealTree ├── lodash._baseeach@4.1.2
+155 silly idealTree ├── lodash._basefind@3.0.0
+155 silly idealTree ├── lodash._basefindindex@3.6.0
+155 silly idealTree ├── lodash._baseiteratee@4.6.0
+155 silly idealTree ├── lodash._mapcache@4.1.4
+155 silly idealTree ├── lodash._stringtopath@4.7.0
+155 silly idealTree ├── lodash.find@4.2.0
+155 silly idealTree ├── lodash.memoize@4.0.1
+155 silly idealTree ├── lodash@4.8.2
+155 silly idealTree ├── loose-envify@1.1.0
+155 silly idealTree ├── minimatch@3.0.0
+155 silly idealTree ├── minimist@0.0.8
+155 silly idealTree ├── mkdirp@0.5.1
+155 silly idealTree ├── ms@0.7.1
+155 silly idealTree ├── mute-stream@0.0.5
+155 silly idealTree ├── nan@2.3.5
+155 silly idealTree ├── number-is-nan@1.0.0
+155 silly idealTree ├── object-assign@4.0.1
+155 silly idealTree ├── once@1.3.3
+155 silly idealTree ├── onetime@1.1.0
+155 silly idealTree ├── optionator@0.8.1
+155 silly idealTree ├── os-homedir@1.0.1
+155 silly idealTree ├── os-tmpdir@1.0.1
+155 silly idealTree ├── path-exists@2.1.0
+155 silly idealTree ├── path-is-absolute@1.0.0
+155 silly idealTree ├── path-is-inside@1.0.1
+155 silly idealTree ├── pify@2.3.0
+155 silly idealTree ├── pinkie-promise@2.0.0
+155 silly idealTree ├── pinkie@2.0.4
+155 silly idealTree ├── pluralize@1.2.1
+155 silly idealTree ├── prelude-ls@1.1.2
+155 silly idealTree ├── private@0.1.6
+155 silly idealTree ├── process-nextick-args@1.0.6
+155 silly idealTree ├── progress@1.1.8
+155 silly idealTree ├── read-json-sync@1.1.1
+155 silly idealTree ├── readable-stream@2.0.6
+155 silly idealTree ├── readline2@1.0.1
+155 silly idealTree ├── repeating@1.1.3
+155 silly idealTree ├── require-uncached@1.0.2
+155 silly idealTree ├── resolve-from@1.0.1
+155 silly idealTree ├── restore-cursor@1.0.1
+155 silly idealTree ├── rimraf@2.5.2
+155 silly idealTree ├── run-async@0.1.0
+155 silly idealTree ├── rx-lite@3.1.2
+155 silly idealTree ├── shebang-regex@1.0.0
+155 silly idealTree ├── shelljs@0.6.0
+155 silly idealTree ├── slash@1.0.0
+155 silly idealTree ├── slice-ansi@0.0.4
+155 silly idealTree ├─┬ source-map-support@0.2.10
+155 silly idealTree │ └── source-map@0.1.32
+155 silly idealTree ├── source-map@0.5.3
+155 silly idealTree ├── sprintf-js@1.0.3
+155 silly idealTree ├── string_decoder@0.10.31
+155 silly idealTree ├── string-width@1.0.1
+155 silly idealTree ├── strip-ansi@3.0.1
+155 silly idealTree ├── strip-json-comments@1.0.4
+155 silly idealTree ├── supports-color@2.0.0
+155 silly idealTree ├── table@3.7.8
+155 silly idealTree ├── text-table@0.2.0
+155 silly idealTree ├── through@2.3.8
+155 silly idealTree ├── to-fast-properties@1.0.2
+155 silly idealTree ├── trim-right@1.0.1
+155 silly idealTree ├── tryit@1.0.2
+155 silly idealTree ├── tv4@1.2.7
+155 silly idealTree ├── type-check@0.3.2
+155 silly idealTree ├── typedarray@0.0.6
+155 silly idealTree ├── user-home@2.0.0
+155 silly idealTree ├── util-deprecate@1.0.2
+155 silly idealTree ├── wordwrap@1.0.0
+155 silly idealTree ├── wrappy@1.0.1
+155 silly idealTree ├── write@0.2.1
+155 silly idealTree ├── xregexp@3.1.0
+155 silly idealTree └── xtend@4.0.1
+156 silly generateActionsToTake Starting
+157 silly install generateActionsToTake
+158 silly generateActionsToTake Finishing
+159 silly diffTrees action count 3
+160 silly diffTrees add bindings@1.2.1
+161 silly diffTrees add nan@2.3.5
+162 silly diffTrees add bcrypt@0.8.7
+163 silly decomposeActions action count 24
+164 silly decomposeActions fetch bindings@1.2.1
+165 silly decomposeActions extract bindings@1.2.1
+166 silly decomposeActions test bindings@1.2.1
+167 silly decomposeActions preinstall bindings@1.2.1
+168 silly decomposeActions build bindings@1.2.1
+169 silly decomposeActions install bindings@1.2.1
+170 silly decomposeActions postinstall bindings@1.2.1
+171 silly decomposeActions finalize bindings@1.2.1
+172 silly decomposeActions fetch nan@2.3.5
+173 silly decomposeActions extract nan@2.3.5
+174 silly decomposeActions test nan@2.3.5
+175 silly decomposeActions preinstall nan@2.3.5
+176 silly decomposeActions build nan@2.3.5
+177 silly decomposeActions install nan@2.3.5
+178 silly decomposeActions postinstall nan@2.3.5
+179 silly decomposeActions finalize nan@2.3.5
+180 silly decomposeActions fetch bcrypt@0.8.7
+181 silly decomposeActions extract bcrypt@0.8.7
+182 silly decomposeActions test bcrypt@0.8.7
+183 silly decomposeActions preinstall bcrypt@0.8.7
+184 silly decomposeActions build bcrypt@0.8.7
+185 silly decomposeActions install bcrypt@0.8.7
+186 silly decomposeActions postinstall bcrypt@0.8.7
+187 silly decomposeActions finalize bcrypt@0.8.7
+188 silly executeActions Starting
+189 silly install executeActions
+190 silly doSerial global-install 0
+191 silly doParallel fetch 3
+192 verbose correctMkdir /Users/Leopold_Dls/.npm/_locks correctMkdir not in flight; initializing
+193 verbose lock using /Users/Leopold_Dls/.npm/_locks/staging-f66a6083002eaf14.lock for /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging
+194 silly doParallel extract 3
+195 silly extract bindings@1.2.1
+196 silly extract nan@2.3.5
+197 silly extract bcrypt@0.8.7
+198 verbose unbuild node_modules/.staging/bindings-adfa9ba3
+199 verbose unbuild node_modules/.staging/nan-d0b7376d
+200 verbose unbuild node_modules/.staging/bcrypt-b43fbd4d
+201 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3 is being purged from base /Users/Leopold_Dls/Documents/development/kickstation/application/app
+202 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+203 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d is being purged from base /Users/Leopold_Dls/Documents/development/kickstation/application/app
+204 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+205 verbose tar unpack /Users/Leopold_Dls/.npm/bindings/1.2.1/package.tgz
+206 verbose tar unpacking to /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+207 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3 is being purged
+208 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+209 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d is being purged from base /Users/Leopold_Dls/Documents/development/kickstation/application/app
+210 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+211 verbose tar unpack /Users/Leopold_Dls/.npm/nan/2.3.5/package.tgz
+212 verbose tar unpacking to /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+213 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d is being purged
+214 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+215 silly gunzTarPerm modes [ '755', '644' ]
+216 verbose tar unpack /Users/Leopold_Dls/.npm/bcrypt/0.8.7/package.tgz
+217 verbose tar unpacking to /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+218 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d is being purged
+219 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+220 silly gunzTarPerm modes [ '755', '644' ]
+221 silly gunzTarPerm modes [ '755', '644' ]
+222 silly gunzTarPerm extractEntry package.json
+223 silly gunzTarPerm extractEntry package.json
+224 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+225 silly gunzTarPerm extractEntry package.json
+226 silly gunzTarPerm extractEntry README.md
+227 silly gunzTarPerm extractEntry bindings.js
+228 silly gunzTarPerm extractEntry README.md
+229 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+230 silly gunzTarPerm extractEntry .npmignore
+231 silly gunzTarPerm extractEntry README.md
+232 silly gunzTarPerm extractEntry include_dirs.js
+233 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+234 silly gunzTarPerm extractEntry nan_converters.h
+235 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+236 silly gunzTarPerm extractEntry LICENSE.md
+237 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+238 silly gunzTarPerm extractEntry doc/node_misc.md
+239 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+240 silly gunzTarPerm extractEntry LICENSE
+241 silly gunzTarPerm extractEntry bcrypt.js
+242 silly gunzTarPerm extractEntry Makefile
+243 silly gunzTarPerm extractEntry .travis.yml
+244 silly gunzTarPerm extractEntry CHANGELOG.md
+245 silly gunzTarPerm extractEntry binding.gyp
+246 silly gunzTarPerm extractEntry examples/async_compare.js
+247 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+248 silly gunzTarPerm extractEntry test/async.js
+249 silly gunzTarPerm extractEntry test/repetitions.js
+250 silly gunzTarPerm extractEntry test/sync.js
+251 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+252 silly gunzTarPerm extractEntry src/bcrypt.cc
+253 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+254 silly gunzTarPerm extractEntry src/blowfish.cc
+255 silly gunzTarPerm extractEntry src/node_blf.h
+256 silly gunzTarPerm extractEntry werker.yml
+257 silly gunzTarPerm extractEntry doc/asyncworker.md
+258 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+259 silly gunzTarPerm extractEntry doc/callback.md
+260 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+261 silly gunzTarPerm extractEntry doc/converters.md
+262 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+263 silly gunzTarPerm extractEntry doc/errors.md
+264 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+265 silly gunzTarPerm extractEntry doc/maybe_types.md
+266 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+267 silly gunzTarPerm extractEntry doc/methods.md
+268 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+269 silly gunzTarPerm extractEntry doc/new.md
+270 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+271 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3/node_modules is being purged
+272 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3/node_modules
+273 silly gunzTarPerm extractEntry doc/buffers.md
+274 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+275 silly gunzTarPerm extractEntry doc/object_wrappers.md
+276 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+277 silly gunzTarPerm extractEntry doc/persistent.md
+278 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+279 silly gunzTarPerm extractEntry doc/scopes.md
+280 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+281 silly gunzTarPerm extractEntry doc/script.md
+282 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+283 silly gunzTarPerm extractEntry doc/string_bytes.md
+284 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+285 silly gunzTarPerm extractEntry doc/v8_internals.md
+286 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+287 silly gunzTarPerm extractEntry doc/v8_misc.md
+288 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+289 silly gunzTarPerm extractEntry nan.h
+290 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+291 silly gunzTarPerm extractEntry nan_callbacks.h
+292 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+293 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+294 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+295 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+296 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+297 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+298 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+299 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+300 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+301 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+302 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+303 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+304 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+305 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+306 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+307 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+308 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+309 silly gunzTarPerm extractEntry nan_new.h
+310 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+311 silly gunzTarPerm extractEntry nan_object_wrap.h
+312 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+313 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+314 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+315 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+316 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+317 silly gunzTarPerm extractEntry nan_string_bytes.h
+318 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+319 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+320 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+321 silly gunzTarPerm extractEntry nan_weak.h
+322 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+323 silly gunzTarPerm extractEntry CHANGELOG.md
+324 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+325 silly gunzTarPerm extractEntry tools/package.json
+326 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+327 silly gunzTarPerm extractEntry tools/README.md
+328 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+329 silly gunzTarPerm extractEntry tools/1to2.js
+330 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+331 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d/node_modules is being purged
+332 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d/node_modules
+333 silly gentlyRm /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d/node_modules is being purged
+334 verbose gentlyRm don't care about contents; nuking /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d/node_modules
+335 silly doParallel preinstall 3
+336 silly preinstall bindings@1.2.1 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+337 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+338 silly preinstall nan@2.3.5 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+339 info lifecycle nan@2.3.5~preinstall: nan@2.3.5
+340 silly preinstall bcrypt@0.8.7 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+341 info lifecycle bcrypt@0.8.7~preinstall: bcrypt@0.8.7
+342 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+343 silly lifecycle nan@2.3.5~preinstall: no script for preinstall, continuing
+344 silly lifecycle bcrypt@0.8.7~preinstall: no script for preinstall, continuing
+345 silly doReverseSerial remove 0
+346 silly doSerial move 0
+347 silly doSerial finalize 3
+348 silly finalize /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/bindings
+349 silly finalize /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/nan
+350 silly finalize /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/bcrypt
+351 silly doSerial build 3
+352 silly build bindings@1.2.1
+353 info linkStuff bindings@1.2.1
+354 silly linkStuff bindings@1.2.1 has /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules as its parent node_modules
+355 verbose linkBins bindings@1.2.1
+356 verbose linkMans bindings@1.2.1
+357 silly build nan@2.3.5
+358 info linkStuff nan@2.3.5
+359 silly linkStuff nan@2.3.5 has /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules as its parent node_modules
+360 verbose linkBins nan@2.3.5
+361 verbose linkMans nan@2.3.5
+362 silly build bcrypt@0.8.7
+363 info linkStuff bcrypt@0.8.7
+364 silly linkStuff bcrypt@0.8.7 has /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules as its parent node_modules
+365 verbose linkBins bcrypt@0.8.7
+366 verbose linkMans bcrypt@0.8.7
+367 silly doSerial global-link 0
+368 silly doParallel update-linked 0
+369 silly doSerial install 3
+370 silly install bindings@1.2.1 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+371 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+372 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+373 silly install nan@2.3.5 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+374 info lifecycle nan@2.3.5~install: nan@2.3.5
+375 silly lifecycle nan@2.3.5~install: no script for install, continuing
+376 silly install bcrypt@0.8.7 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+377 info lifecycle bcrypt@0.8.7~install: bcrypt@0.8.7
+378 verbose lifecycle bcrypt@0.8.7~install: unsafe-perm in lifecycle true
+379 verbose lifecycle bcrypt@0.8.7~install: PATH: /Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/bin/node-gyp-bin:/Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/bcrypt/node_modules/.bin:/Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.bin:/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin:/Users/Leopold_Dls/.meteor/packages/meteor-tool/1.4.1_1/mt-os.osx.x86_64/dev_bundle/bin:/Users/Leopold_Dls/.meteor/packages/meteor-tool/1.4.1_1/mt-os.osx.x86_64/dev_bundle/lib/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
+380 verbose lifecycle bcrypt@0.8.7~install: CWD: /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/bcrypt
+381 silly lifecycle bcrypt@0.8.7~install: Args: [ '-c', 'node-gyp rebuild' ]
+382 silly lifecycle bcrypt@0.8.7~install: Returned: code: 0  signal: null
+383 silly doSerial postinstall 3
+384 silly postinstall bindings@1.2.1 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bindings-adfa9ba3
+385 info lifecycle bindings@1.2.1~postinstall: bindings@1.2.1
+386 silly lifecycle bindings@1.2.1~postinstall: no script for postinstall, continuing
+387 silly postinstall nan@2.3.5 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/nan-d0b7376d
+388 info lifecycle nan@2.3.5~postinstall: nan@2.3.5
+389 silly lifecycle nan@2.3.5~postinstall: no script for postinstall, continuing
+390 silly postinstall bcrypt@0.8.7 /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging/bcrypt-b43fbd4d
+391 info lifecycle bcrypt@0.8.7~postinstall: bcrypt@0.8.7
+392 silly lifecycle bcrypt@0.8.7~postinstall: no script for postinstall, continuing
+393 verbose unlock done using /Users/Leopold_Dls/.npm/_locks/staging-f66a6083002eaf14.lock for /Users/Leopold_Dls/Documents/development/kickstation/application/app/node_modules/.staging
+394 silly executeActions Finishing
+395 silly rollbackFailedOptional Starting
+396 silly rollbackFailedOptional Finishing
+397 silly runTopLevelLifecycles Starting
+398 silly install runTopLevelLifecycles
+399 silly runTopLevelLifecycles Finishing
+400 silly install saveToDependencies
+401 verbose saving [ { name: 'bcrypt', spec: '^0.8.7', save: 'dependencies' } ]
+402 info lifecycle undefined~preshrinkwrap: undefined
+403 silly lifecycle undefined~preshrinkwrap: no script for preshrinkwrap, continuing
+404 warn shrinkwrap Excluding devDependency: acorn@3.0.4 { autoprefixer: '^6.3.1',
+404 warn shrinkwrap   bcrypt: '^0.8.7',
+404 warn shrinkwrap   faker: '^3.0.1',
+404 warn shrinkwrap   lodash: '4.12.0',
+404 warn shrinkwrap   moment: '2.13.0' }
+405 warn shrinkwrap Excluding devDependency: acorn-jsx@2.0.1 { autoprefixer: '^6.3.1',
+405 warn shrinkwrap   bcrypt: '^0.8.7',
+405 warn shrinkwrap   faker: '^3.0.1',
+405 warn shrinkwrap   lodash: '4.12.0',
+405 warn shrinkwrap   moment: '2.13.0' }
+406 verbose stack RangeError: Maximum call stack size exceeded
+406 verbose stack     at module.exports (/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/aproba/index.js:18:42)
+406 verbose stack     at moduleName (/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/utils/module-name.js:25:3)
+406 verbose stack     at exports.isOnlyDev (/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:39:45)
+406 verbose stack     at /Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:33:14
+406 verbose stack     at Array.every (native)
+406 verbose stack     at exports.isOnlyDev (/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:39:26)
+406 verbose stack     at /Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:33:14
+406 verbose stack     at Array.every (native)
+406 verbose stack     at exports.isOnlyDev (/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:39:26)
+406 verbose stack     at /Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/is-dev.js:33:14
+407 verbose cwd /Users/Leopold_Dls/Documents/development/kickstation/application/app
+408 error Darwin 15.6.0
+409 error argv "/Users/Leopold_Dls/.meteor/packages/meteor-tool/.1.4.1_1.1onstxe++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node" "/Users/Leopold_Dls/.meteor/packages/meteor-tool/1.4.1_1/mt-os.osx.x86_64/dev_bundle/bin/npm" "install" "--save" "bcrypt"
+410 error node v4.5.0
+411 error npm  v3.10.6
+412 error Maximum call stack size exceeded
+413 error If you need help, you may report this error at:
+413 error     <https://github.com/npm/npm/issues>
+414 verbose exit [ 1, true ]
